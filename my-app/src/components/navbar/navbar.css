@@ -1,0 +1,92 @@
+@font-face {
+  font-family: coolvetica;
+  src: url("../../assets/coolvetica/coolvetica/coolvetica rg.otf") format("opentype");
+}
+
+@font-face {
+  font-family: coolvetica1;
+  src: url("../../assets/coolvetica/coolvetica compressed hv.otf") format("opentype");
+}
+
+.nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 20% 28% 50%;
+      grid-template-columns: 20% 28% 50%;
+  -ms-grid-rows: 100%;
+      grid-template-rows: 100%;
+  height: 10vh;
+  width: 100%;
+  margin-top: 2%;
+  z-index: 1;
+}
+
+.nav .logo {
+  position: absolute;
+  height: 100%;
+  margin-left: 10%;
+}
+
+.nav .logo img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 55%;
+}
+
+.nav ul {
+  -ms-grid-column: 3;
+  -ms-grid-column-span: 1;
+  grid-column: 3/4;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 0.19fr 0.2fr 0.2fr 0.2fr 200px;
+      grid-template-columns: 0.19fr 0.2fr 0.2fr 0.2fr 200px;
+  text-align: start;
+  width: 100%;
+  position: relative;
+  left: 0%;
+}
+
+.nav ul li {
+  list-style: none;
+}
+
+.nav ul li a {
+  font-family: 'Inter', sans-serif;
+  text-decoration: none;
+  color: #ffffff;
+  text-transform: uppercase;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.nav ul li .start-button {
+  position: relative;
+  top: -5%;
+}
+
+.nav ul li .start-button .button {
+  font-family: coolvetica;
+  color: #FF8080;
+}
+
+.nav.black ul li {
+  list-style: none;
+}
+
+.nav.black ul li a {
+  color: #050303;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  font-weight: 500;
+}
+
+.nav.black ul li .start-button .button {
+  font-family: coolvetica;
+  color: #FF8080;
+  font-weight: lighter;
+}
+/*# sourceMappingURL=navbar.css.map */

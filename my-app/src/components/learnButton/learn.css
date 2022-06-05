@@ -1,0 +1,30 @@
+@font-face {
+  font-family: coolvetica;
+  src: url("../../assets/coolvetica/coolvetica/coolvetica rg.otf") format("opentype");
+}
+
+@font-face {
+  font-family: coolvetica1;
+  src: url("../../assets/coolvetica/coolvetica compressed hv.otf") format("opentype");
+}
+
+.learn-button .button {
+  border-style: solid;
+  border-radius: 0.625rem;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  padding-top: 0.5%;
+  padding-bottom: 0.5%;
+  padding-left: 1.5%;
+  padding-right: 1.5%;
+  border-color: #FF8080;
+  font-family: coolvetica;
+  color: #FF8080;
+  font-size: 1rem;
+  letter-spacing: 0.5px;
+  font-weight: lighter;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+/*# sourceMappingURL=learn.css.map */

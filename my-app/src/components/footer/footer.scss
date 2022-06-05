@@ -1,0 +1,135 @@
+@import '../../assets/variables';
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+@font-face {
+    font-family: coolvetica;
+    src: url('../../assets/coolvetica/coolvetica\ rg.otf') format('opentype');
+    font-display: swap;
+    
+}
+
+.footer{
+    height: 100vh;
+    width: 100vw;
+    background-color: $black;
+    position: relative;
+    .quote-wrapper{
+        position: relative;
+        height: 42%;
+        margin-left: 10%;
+        width: 80%;
+        background-color: $white;
+        top: 17%;
+        border-radius: 22px;
+        h1{
+            font-family: coolvetica;
+            font-weight: lighter;
+            font-size: 76.75px;
+            width: 90%;
+            text-align: center;
+            position: relative;
+            left: 50%;
+            top: 10%;
+            transform: translateX(-50%);
+        }
+
+        .start-button{
+            position: absolute;
+            width: 12%;
+            top: 70%;
+            left: 35%;
+        }
+
+        .getInTouch{
+            position: absolute;
+            text-decoration: none;
+            font-family: coolvetica;
+            text-transform: uppercase;
+            color: $black;
+            top: 70%;
+            left: 50%;
+            
+        }
+    }
+
+    .info-wrapper{
+        position: relative;
+        display: grid;
+        grid-template-columns: 0.8fr 0.5fr 0.5fr 0.8fr;
+        grid-template-rows: 20vh;
+        height: 20vh;
+        width: 80%;
+        top: 32%;
+        left: 10%;
+        .col{
+            display: grid;
+            grid-template-rows: 1.3fr 1fr 1fr 1fr 1fr 1fr;
+
+            h1{
+                font-family: inter;
+                font-size: 1rem;
+                color: $white;
+                text-transform: uppercase;
+            }
+        }
+
+        .col.one{
+            
+            img{
+                position: relative;
+                bottom: 10%;
+                grid-row: 5/7;
+                object-fit: contain;
+                width: 11%;
+                height: 100%;
+            }
+        }
+
+        .col.two{
+            font-family: inter;
+
+            a{
+                text-decoration: none;
+                color: $grey;
+                font-size: 14px;
+                width: max-content;
+            }
+
+            p{
+                grid-row: 6/7;
+                color: $grey;
+                font-size: 14px;
+                margin: 0;
+            }
+        }
+
+        .col.three{
+            font-family: inter;
+
+            a{
+                text-decoration: none;
+                color: $grey;
+                font-size: 14px;
+                width: max-content;
+            }
+        }
+
+        .col.four{
+            font-family: inter;
+
+            p{
+                margin: 0;
+                color: $grey;
+                font-size: 14px;
+                width: 60%;
+            }
+            
+            .address{
+                grid-row: 2/4;
+            }
+
+            .tel{
+               grid-row: 4/6;
+            }
+        }
+    }
+}

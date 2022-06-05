@@ -1,0 +1,31 @@
+@font-face {
+    font-family: coolvetica;
+    src: url('../../assets/coolvetica/coolvetica/coolvetica\ rg.otf') format('opentype');
+}
+
+@font-face {
+    font-family: coolvetica1;
+    src: url('../../assets/coolvetica/coolvetica\ compressed\ hv.otf') format('opentype');
+}
+
+@import "../../assets/variables";
+
+.learn-button{
+    .button{
+        border-style: solid;
+        border-radius: 0.625rem;
+        width: max-content;
+        padding-top: 0.5%;
+        padding-bottom: 0.5%;
+        padding-left: 1.5%;
+        padding-right: 1.5%;
+        border-color: $brightPink;
+        font-family: coolvetica;
+        color: $brightPink;
+        font-size: 1rem;
+        letter-spacing: 0.5px;
+        font-weight: lighter;
+        text-decoration: none;
+        text-transform: uppercase;
+    }
+}
