@@ -1,0 +1,8 @@
+body::-webkit-scrollbar{
+  display: none;
+}
+
+body{
+  height: 200vh;
+  overflow-y: scroll;
+}

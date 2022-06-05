@@ -1,0 +1,263 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap");
+@font-face {
+  font-family: coolvetica;
+  src: url("../../assets/coolvetica/coolvetica rg.otf") format("opentype");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: coolvetica1;
+  src: url("../../assets/coolvetica/coolvetica condensed rg.otf") format("opentype");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: coolvetica2;
+  src: url("../../assets/coolvetica/coolvetica compressed hv.otf") format("opentype");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: coolvetica3;
+  src: url("../../assets/coolvetica/coolvetica crammed rg.otf") format("opentype");
+  font-display: swap;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+}
+
+.about {
+  height: 100%;
+  width: 100%;
+}
+
+.about .first {
+  height: 100vh;
+  background-color: black;
+  position: relative;
+}
+
+.about .first .image-wrapper {
+  position: absolute;
+  background-size: cover;
+}
+
+.about .first .image-wrapper.one {
+  right: 10%;
+  bottom: 30%;
+  height: 50%;
+  width: 45%;
+  background-position: top;
+  background-image: url("../../assets/team.jpg");
+}
+
+.about .first .image-wrapper.two {
+  left: 10%;
+  bottom: 35%;
+  height: 50%;
+  width: 34%;
+  background-position: center;
+  background-image: url("../../assets/Team 30.jpg");
+}
+
+.about .first .content {
+  position: relative;
+  left: 10%;
+  top: 68%;
+}
+
+.about .first .content h1 {
+  font-family: coolvetica1;
+  color: #ffffff;
+  font-weight: lighter;
+  font-size: 127.88px;
+  margin-bottom: 1%;
+}
+
+.about .first .content p {
+  font-family: inter;
+  color: #c1bcbc;
+  width: 30%;
+  line-height: 1.6;
+}
+
+.about .first .first-dummy {
+  position: absolute;
+  z-index: -1;
+  height: 95%;
+  width: 95%;
+  background-color: transparent;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.about .second {
+  height: 100vh;
+  background-color: #ffffff;
+  position: relative;
+}
+
+.about .second .image-wrapper {
+  position: absolute;
+  background-color: #c1bcbc;
+  height: 70%;
+  width: 22%;
+  left: 15%;
+  top: 20%;
+  border-radius: 22px;
+  overflow: hidden;
+}
+
+.about .second .image-wrapper img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+
+.about .second .content-wrapper {
+  position: absolute;
+  left: 50%;
+  top: 22%;
+}
+
+.about .second .content-wrapper h1 {
+  font-family: coolvetica;
+  font-size: 63.96px;
+  font-weight: lighter;
+  line-height: 1;
+}
+
+.about .second .content-wrapper h2 {
+  font-family: inter;
+  font-weight: 600;
+  margin-top: 5%;
+  font-size: 1rem;
+}
+
+.about .second .content-wrapper p {
+  font-family: inter;
+  width: 45%;
+  line-height: 1.5;
+}
+
+.about .second .second-dummy {
+  position: absolute;
+  z-index: -1;
+  height: 95%;
+  width: 95%;
+  background-color: transparent;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.about .third {
+  height: 100vh;
+  background-color: #ffffff;
+  position: relative;
+}
+
+.about .third h1 {
+  font-family: coolvetica;
+  font-size: 63.96px;
+  position: relative;
+  left: 13%;
+  top: 13%;
+  font-weight: lighter;
+}
+
+.about .third .image-wrapper {
+  position: absolute;
+  left: 40%;
+  top: 32%;
+  background-color: #c1bcbc;
+  height: 60%;
+  width: 50%;
+  border-radius: 22px;
+  overflow: hidden;
+}
+
+.about .third .image-wrapper img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+
+.about .third .content-wrapper {
+  position: absolute;
+  top: 38%;
+  left: 13%;
+  width: 25%;
+}
+
+.about .third .content-wrapper h2 {
+  font-family: inter;
+  font-size: 16px;
+}
+
+.about .third .content-wrapper p {
+  font-family: inter;
+  font-size: 16px;
+}
+
+.about .third .third-dummy {
+  position: absolute;
+  z-index: -1;
+  height: 95%;
+  width: 95%;
+  background-color: transparent;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.about .fourth {
+  height: 100vh;
+  background-color: #050303;
+  position: relative;
+}
+
+.about .fourth .video-wrapper {
+  position: absolute;
+  height: 80%;
+  width: 80%;
+  background-color: #c1bcbc;
+  left: 10%;
+  top: 15%;
+  border-radius: 22px;
+}
+
+.about .fourth .video-wrapper img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 70%;
+  height: 120%;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+
+.about .fourth .fourth-dummy {
+  position: absolute;
+  z-index: -1;
+  height: 95%;
+  width: 95%;
+  background-color: transparent;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+/*# sourceMappingURL=about.css.map */

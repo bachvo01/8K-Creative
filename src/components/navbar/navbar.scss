@@ -1,0 +1,82 @@
+@font-face {
+    font-family: coolvetica;
+    src: url('../../assets/coolvetica/coolvetica/coolvetica\ rg.otf') format('opentype');
+}
+
+@font-face {
+    font-family: coolvetica1;
+    src: url('../../assets/coolvetica/coolvetica\ compressed\ hv.otf') format('opentype');
+}
+
+@import "../../assets/variables";
+
+.nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: grid;
+    grid-template-columns: 20% 28% 50%;
+    grid-template-rows: 100%;
+    height: 10vh;
+    width: 100%;
+    margin-top: 2%;
+    z-index: 1;
+    .logo{
+        position: absolute;
+        height: 100%;
+        margin-left: 10%;
+        img{
+            object-fit: cover;
+            height: 55%;
+        }
+    }
+
+    ul{
+        grid-column: 3/4;
+        display: grid;
+        grid-template-columns: 0.19fr 0.2fr 0.2fr 0.2fr 200px;
+        text-align: start;
+        width: 100%;
+        position: relative;
+        left: 0%;
+        li{
+            list-style: none;
+            a{
+                font-family: 'Inter', sans-serif;
+                text-decoration: none;
+                color: $white;
+                text-transform: uppercase;
+                transition: 0.5s;
+            }    
+            .start-button{
+                position: relative;
+                top: -5%;
+                .button{
+                    font-family: coolvetica;
+                    color: $brightPink;
+                }
+            }
+        }
+    }
+}
+
+.nav.black{
+    ul{
+        li{
+            list-style: none;
+            a{
+                color: $black;
+                transition: 0.5s;
+                font-weight: 500;
+            }
+
+            .start-button{
+                .button{
+                    font-family: coolvetica;
+                    color: $brightPink;
+                    font-weight: lighter;
+                }
+            }
+        }
+    }
+}
