@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/8K-Creative/static/css/main.8fcebc98.css",
+    "main.js": "/8K-Creative/static/js/main.5083d287.js",
+    "static/media/thanhgiong.mp4": "/8K-Creative/static/media/thanhgiong.c2424362862cc0a6e26d.mp4",
+    "static/media/Team 10.jpg": "/8K-Creative/static/media/Team 10.0c48917e5e16c114cf94.jpg",
+    "static/media/client-trex.jpg": "/8K-Creative/static/media/client-trex.eda897c828f8cb69d2f6.jpg",
+    "static/media/trex-service.png": "/8K-Creative/static/media/trex-service.221da1df20a92472619c.png",
+    "static/media/Team 30.jpg": "/8K-Creative/static/media/Team 30.ee1164a767591c5c367c.jpg",
+    "static/media/service-member.jpg": "/8K-Creative/static/media/service-member.2852fbae5c1acd8b5c74.jpg",
+    "static/media/baemin.webp": "/8K-Creative/static/media/baemin.8518285c5ce2aa35198c.webp",
+    "static/media/dragonposter.png": "/8K-Creative/static/media/dragonposter.48868f2bc06ac107c8ed.png",
+    "static/media/team.jpg": "/8K-Creative/static/media/team.5e5670d58dc55c1b7eb4.jpg",
+    "static/media/logo11.png": "/8K-Creative/static/media/logo11.6f2c0932806b8a13e526.png",
+    "static/media/trau.webp": "/8K-Creative/static/media/trau.e4280c2fcd182d1c154f.webp",
+    "static/media/tease-dragon.jpg": "/8K-Creative/static/media/tease-dragon.e13c96ec16e151c8b08d.jpg",
+    "static/media/coolvetica condensed rg.otf": "/8K-Creative/static/media/coolvetica condensed rg.5363e58a07461bacfd1a.otf",
+    "static/media/coolvetica compressed hv.otf": "/8K-Creative/static/media/coolvetica compressed hv.d5345494c786e5560f58.otf",
+    "static/media/coolvetica rg.otf": "/8K-Creative/static/media/coolvetica rg.3d81d0e1fdbd5f69b232.otf",
+    "static/media/coolvetica crammed rg.otf": "/8K-Creative/static/media/coolvetica crammed rg.8489c99c0402c7d5a2fd.otf",
+    "static/media/giong2.webp": "/8K-Creative/static/media/giong2.706afe4ffbb2e4e1eeb8.webp",
+    "static/media/vivu-grey1.png": "/8K-Creative/static/media/vivu-grey1.6b662bc507429a699873.png",
+    "static/media/weddingmouse.webp": "/8K-Creative/static/media/weddingmouse.6f0ca51f5befdfbafd1e.webp",
+    "static/media/bitis-grey.png": "/8K-Creative/static/media/bitis-grey.e6bd2175db34b083cf4e.png",
+    "static/media/runam-grey.png": "/8K-Creative/static/media/runam-grey.5b98c29bf3f1467cffba.png",
+    "static/media/purpose-grey.png": "/8K-Creative/static/media/purpose-grey.25f6346b9f5b83c8b770.png",
+    "static/media/slick.svg": "/8K-Creative/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/8K-Creative/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/8K-Creative/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/8K-Creative/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/8K-Creative/index.html",
+    "main.8fcebc98.css.map": "/8K-Creative/static/css/main.8fcebc98.css.map",
+    "main.5083d287.js.map": "/8K-Creative/static/js/main.5083d287.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8fcebc98.css",
+    "static/js/main.5083d287.js"
+  ]
+}
